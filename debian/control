@@ -34,7 +34,7 @@ Build-Depends: debhelper (>= 9.20160114),
                libacl1-dev,
                liblzma-dev,
                libbz2-dev,
-               zlib1g-dev | libz-dev
+               zlib1g-dev | libz-dev,
                libcurl4-gnutls-dev | libcurl-dev,
                libmicrohttpd-dev,
                libgnutls28-dev,
