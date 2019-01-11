@@ -1,11 +1,12 @@
-systemd (230-7~bpo8+2+hetz1~exp6) jessie-hetz-experimental; urgency=medium
+systemd (230-7~bpo8+2+hetz1~exp7) jessie-hetz-experimental; urgency=medium
 
   * Import upstream 
   * Remove references to stage1 in debian/control
   * Removed references to udeb
   * Remove version dependance for debhelper, libapparmor-dev, libseccomp-dev
+  * Disable tests in debian/rule with nocheck
 
- -- Shaun Bugler - Hetzner <sb@hetzner.co.za>  Fri, 11 Jan 2019 13:54:01 +0200
+ -- Shaun Bugler - Hetzner <sb@hetzner.co.za>  Fri, 11 Jan 2019 15:37:29 +0200
 
 systemd (230-7~bpo8+2) jessie-backports; urgency=medium
 
